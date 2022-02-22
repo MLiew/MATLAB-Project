@@ -1,6 +1,4 @@
 % --- Square the image --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function final_img = SquareImg(input_img,maxSize)
     [row, col, channels] = size(input_img);
