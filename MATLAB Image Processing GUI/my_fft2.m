@@ -1,6 +1,4 @@
 % --- Forward Discrete Fourier Transform --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function [ F ] = my_fft2( f )
 % This is my two dimensional Discrete Fourier Transform function
