@@ -1,6 +1,4 @@
 % --- Determine which filter is being called and return the result_img --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function result_img = Filters(initial_img, filter, freq_level,threshold_freq)
     if strcmp(filter, 'Butterworth')
