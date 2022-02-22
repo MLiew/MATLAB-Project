@@ -1,6 +1,4 @@
 % --- Arnold Transform --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function return_img = ArnoldTransform(input_img)
     [row, col, channels] = size(input_img);
