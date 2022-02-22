@@ -1,6 +1,4 @@
 % --- Inverse Discrete Fourier Transform --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function [ F ] = my_ifft2( f )
 % This is my Inverse Discrete Fourier Transform function
