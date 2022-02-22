@@ -1,6 +1,4 @@
 % --- Gaussian High Pass Filter --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 function final_img = GaussianHighPassFilter(input_img, d0)
 [row, col, channels] = size(input_img);
