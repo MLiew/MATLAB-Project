@@ -1,6 +1,4 @@
 % --- Fourier Transform --- %
-% Name: Liew Ying Jia
-% Student ID: LS2015201
 
 %  Return Fourier Transform Frequency Domain
 function return_img = FourierTransform(input_img)
