@@ -14,3 +14,5 @@ This program takes a base image, which is the image that wanted to be encrypted 
 
 The output images from this program are a watermarked image and an extracted watermark image from the watermarked image.  
 <img src="https://user-images.githubusercontent.com/30465494/155265652-cb470611-ec5a-4728-b637-3436fd48592e.png" width="600" height="400">
+
+For chinese explanation, please visit my csdn [csdn](https://blog.csdn.net/qq_39560620/article/details/123087970) blog.
