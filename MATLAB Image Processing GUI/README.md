@@ -10,8 +10,9 @@ Firstly, the main task that the program has to accomplished is to read image inp
 7. Save the processed image;
 8. Reset the image canvas.
 <br>
+
 <b>B.	Design the MATLAB Graphical User Interface</b>  
-In order to fulfil the requirements mentioned in part A, the MATLAB Graphical User Interface(GUI) is designed. Below are several elements used in the GUI design:
+In order to fulfil the requirements mentioned in part A, the MATLAB Graphical User Interface(GUI) is designed. Below are several elements used in the GUI design: <br>
 1. Editable text field: display image file directory chosen and input filter threshold frequency;
 2. Push button: choose file directory, Fourier transform, Arnold transform, Butterworth filter, Gaussian filter, process image, save image and clear image;
 3. Pop up menu: select Butterworth or Gaussian filter and select low or high pass filter;
@@ -20,17 +21,18 @@ In order to fulfil the requirements mentioned in part A, the MATLAB Graphical Us
 
 ## CODE
 This GUI includes 14 different subprograms, some main subprogram that are worth mentioning are: 
-1. ArnoldTransform.m : Image Encryption
-2. ButterworthHighPassFilter.m : Butterworth High Pass Filter
-3. ButterworthLowPassFilter.m : Butterworth Low Pass Filter
-4. FourierTransform.m : Perform fourier transform on image
-5. GaussianHighPassFilter.m : Gaussian High Pass Filter
-6. GaussianLowPassFilter.m : Gaussian Low Pass Filter
-7. ImageEnhancementGUI.fig : GUI file
-8. ImageEnhancementGUI.m : GUI program 
-9. my_fft2.m : Self-coded fast fourier transform (2D) function
-10. my_ifft2.m : Self-coded inverse fast fourier transform (2D) function
-11. SquareImg.m : Squaring the input image function
+1. `ArnoldTransform.m` : Image Encryption
+2. `ButterworthHighPassFilter.m` : Butterworth High Pass Filter
+3. `ButterworthLowPassFilter.m` : Butterworth Low Pass Filter
+4. `FourierTransform.m` : Perform fourier transform on image
+5. `GaussianHighPassFilter.m` : Gaussian High Pass Filter
+6. `GaussianLowPassFilter.m` : Gaussian Low Pass Filter
+7. `ImageEnhancementGUI.fig` : GUI file
+8. `ImageEnhancementGUI.m` : GUI program 
+9. `my_fft2.m` : Self-coded fast fourier transform (2D) function
+10. `my_ifft2.m` : Self-coded inverse fast fourier transform (2D) function
+11. `SquareImg.m` : Squaring the input image function
+<br>
 
 ## HOW TO USE? 
 1. Choose an image to be processed, the chosen image will appear in the left canvas. 
